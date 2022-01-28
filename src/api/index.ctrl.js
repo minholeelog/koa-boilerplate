@@ -1,0 +1,1 @@
+exports.hello = (ctx) => ctx.body = 'Hello, Koa!'

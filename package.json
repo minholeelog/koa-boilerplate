@@ -1,0 +1,20 @@
+{
+  "name": "koa-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon --watch src/ src/index.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
